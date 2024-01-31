@@ -18,7 +18,7 @@ class Ejercicio1 : AppCompatActivity() {
             }
 
             override fun onFinish() {
-                var newIntent = Intent(this@Ejercicio1, Ejercicio2::class.java)
+                var newIntent = Intent(this@Ejercicio1, MainActivity::class.java)
                 startActivity(newIntent)
             }
         }
